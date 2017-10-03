@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1037361025351",
+    "firebase_url": "https://baycare-bfeee.firebaseio.com",
+    "project_id": "baycare-bfeee",
+    "storage_bucket": "baycare-bfeee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037361025351:android:6f4017e39ae40ad2",
+        "android_client_info": {
+          "package_name": "com.example.subash.bay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037361025351-m27q8s9rgro8c56vj7u6per7e5d7lmli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUd3SNLYzU4dvWtw12xeR6_3g69KLBvWw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037361025351:android:208fa9d717572c6c",
+        "android_client_info": {
+          "package_name": "com.example.hariharsudan.bc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037361025351-m27q8s9rgro8c56vj7u6per7e5d7lmli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUd3SNLYzU4dvWtw12xeR6_3g69KLBvWw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

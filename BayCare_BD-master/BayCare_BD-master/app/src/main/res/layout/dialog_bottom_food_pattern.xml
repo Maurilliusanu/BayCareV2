@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingTop="16dp"
+android:background="#fff"
+    android:paddingBottom="16dp"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp">
+
+
+        <TextView
+            android:text="Breakfast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView24"
+            android:textSize="16sp"
+            android:textColor="#111" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:padding="20dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp" />
+
+        <TextView
+            android:text="Lunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25"
+            android:textSize="16sp"
+            android:textColor="#111" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:padding="20dp" />
+
+        <TextView
+            android:text="Dinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView26"
+            android:textSize="16sp"
+            android:textColor="#111" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner3"
+            android:padding="20dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp" />
+
+        <TextView
+            android:text="Total calories content per day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView27"
+            android:textSize="16sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="0 cal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView28"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_orange_light"
+            android:layout_margin="5dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/foodssuggest"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:text="Suggest foods for healthy today"
+            android:elevation="7dp"
+            android:background="@drawable/button_bg"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp" />
+</LinearLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".Org.OrgEditProf"
+    android:padding="16dp">
+
+
+<LinearLayout
+android:id="@+id/activity_org_mainpage"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pro_pic_upload"
+            android:elevation="0dp"
+            android:background="@drawable/circle"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/pro_pic_img"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="135dp"
+            android:layout_height="135dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:clickable="true"
+            app:fabSize="mini"
+            app:srcCompat="@android:drawable/ic_menu_camera"
+            android:id="@+id/pro_pic_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/pro_pic_upload"
+            app:elevation="5dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:text="Organisation Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/org_namee"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/org_name_input"
+        android:padding="11dp"
+        android:background="@drawable/layout_bg"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="16sp"
+        android:elevation="7dp" />
+
+    <TextView
+        android:text="IRDA Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/irda_number"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/irda_number_input"
+        android:padding="11dp"
+        android:background="@drawable/layout_bg"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="16sp"
+        android:elevation="7dp" />
+
+    <TextView
+        android:text="Address Line 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/org_address_1"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/org_address_1_input"
+        android:padding="11dp"
+        android:background="@drawable/layout_bg"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="16sp"
+        android:elevation="7dp" />
+
+    <TextView
+        android:text="Address Line 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/org_address_2"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/org_address_2_input"
+        android:padding="11dp"
+        android:background="@drawable/layout_bg"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="16sp"
+        android:elevation="7dp" />
+
+    <TextView
+        android:text="Address Line 3 (Optional)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/org_address_3"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/org_address_3_input"
+        android:padding="11dp"
+        android:background="@drawable/layout_bg"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="16sp"
+        android:elevation="7dp" />
+
+    <TextView
+        android:text="Contact Information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/org_contactt"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/org_contact_input"
+        android:padding="11dp"
+        android:background="@drawable/layout_bg"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="16sp"
+        android:elevation="7dp"
+        android:layout_marginBottom="15dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/org_proceed_button"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:text="@string/go"
+        android:elevation="7dp"
+        android:background="@drawable/button_bg"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="40dp" />
+
+
+</LinearLayout>
+
+</ScrollView>

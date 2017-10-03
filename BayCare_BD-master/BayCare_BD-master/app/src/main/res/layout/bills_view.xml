@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_anchorGravity="bottom"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff">
+    <ImageView
+        android:layout_width="250dp"
+        android:id="@+id/imageView"
+        android:layout_margin="10dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/upload" />
+
+    <TextView
+        android:text="Keep track of your Medical Payments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_to_hide"
+        android:layout_margin="10dp"
+        android:background="@drawable/layout_bg_2"
+        android:elevation="6dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="140dp">
+
+            <TextView
+                android:text="Receipt Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:layout_margin="10dp"
+                android:textColor="@color/background_text_color" />
+
+            <TextView
+                android:text="Path"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/path"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/background_text_color" />
+
+            <TextView
+                android:text="Size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/size"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/background_text_color" />
+
+            <TextView
+                android:text="Saved On"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/date"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/background_text_color"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_margin="10dp"
+                android:textColor="#aaaaaa"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="#aaaaaa"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="#aaaaaa"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="#aaaaaa"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:elevation="8dp"
+        android:layout_height="1dp"
+        android:background="@drawable/layout_bg"
+        android:layout_marginTop="15dp">
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="9dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/r1">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/save"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:text="Save your reciept"
+                android:elevation="7dp"
+                android:background="#fff"
+                android:layout_height="45dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_landing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/bc_logo_vector"
+        android:id="@+id/imageView"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:text="Aadhar Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/an_textview"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/aadharnum"
+        android:padding="11dp"
+        android:background="@drawable/layout_bg"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="16sp"
+        android:elevation="7dp" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass_textview"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/userpass"
+        android:padding="11dp"
+        android:background="@drawable/layout_bg"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="16sp"
+        android:elevation="7dp"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp">
+        <android.support.v7.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rememberme" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Remember Me"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray" /></LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/userlogbut"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:text="Login"
+        android:elevation="7dp"
+        android:background="@drawable/button_bg"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="40dp" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/usersignbut"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:text="Create Account"
+        android:elevation="7dp"
+        android:background="@drawable/button_bg2"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp" />
+
+
+
+</LinearLayout>

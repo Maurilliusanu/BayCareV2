@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:text="user sign in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_sign_in"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="user edit profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_edit_prof"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="org sign in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/org_sign_in"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="org edit profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/org_edit_prof"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="user profile view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_prof_view"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="org profile view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/org_prof_view"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="Bills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bills"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="Pills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pills"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="Fitness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fitness"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="Diet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diet"
+        android:layout_weight="1" />
+</LinearLayout>

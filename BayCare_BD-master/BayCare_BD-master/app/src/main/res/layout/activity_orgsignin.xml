@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_landing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="16dp"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_weight="0.29">
+
+        <android.support.design.widget.FloatingActionButton
+            android:clickable="true"
+            app:fabSize="mini"
+            app:srcCompat="@android:drawable/ic_menu_camera"
+            android:id="@+id/pro_pic_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/pro_pic_upload"
+            app:elevation="5dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pro_pic_upload"
+            android:elevation="0dp"
+            android:background="@drawable/circle"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/pro_pic_img"
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:text="IRDA Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/irda_textview"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/irdanum"
+        android:padding="11dp"
+        android:background="@drawable/layout_bg"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="16sp"
+        android:elevation="7dp" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass_textview"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/orgpass"
+        android:padding="11dp"
+        android:background="@drawable/layout_bg"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="16sp"
+        android:elevation="7dp"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp">
+        <android.support.v7.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rememberme" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Remember Me"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray" /></LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/orgloginbut"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:text="Login"
+        android:elevation="7dp"
+        android:background="@drawable/button_bg"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="40dp" />
+
+
+</LinearLayout>
